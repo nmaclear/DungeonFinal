@@ -1,0 +1,6 @@
+framework module Pods_DungeonFinalTests {
+  umbrella header "Pods-DungeonFinalTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

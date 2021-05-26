@@ -3,19 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A22972726594DAA0066C277 /* nikita-solo-caveentrancefin-export.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A22972626594DA90066C277 /* nikita-solo-caveentrancefin-export.jpg */; };
+		6A63F33226458E6D00EC85DB /* cobble 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A63F33126458E6D00EC85DB /* cobble 2.png */; };
+		6A6CF25B2646D878004C5F00 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A6CF25A2646D878004C5F00 /* GoogleService-Info.plist */; };
+		6A9BD8D8264C4C8800631466 /* 211-2113163_pixilart-scary-face-by-transparent-background-evil-face.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A9BD8D7264C4C8800631466 /* 211-2113163_pixilart-scary-face-by-transparent-background-evil-face.png */; };
 		6ABD298C2641959B00DC60C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABD298B2641959B00DC60C3 /* AppDelegate.swift */; };
 		6ABD298E2641959B00DC60C3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6ABD298D2641959B00DC60C3 /* GameScene.sks */; };
-		6ABD29902641959B00DC60C3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6ABD298F2641959B00DC60C3 /* Actions.sks */; };
 		6ABD29922641959B00DC60C3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABD29912641959B00DC60C3 /* GameScene.swift */; };
 		6ABD29942641959B00DC60C3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABD29932641959B00DC60C3 /* GameViewController.swift */; };
 		6ABD29972641959B00DC60C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABD29952641959B00DC60C3 /* Main.storyboard */; };
 		6ABD29992641959C00DC60C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABD29982641959C00DC60C3 /* Assets.xcassets */; };
 		6ABD29A42641959C00DC60C3 /* DungeonFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABD29A32641959C00DC60C3 /* DungeonFinalTests.swift */; };
 		6ABD29AF2641959C00DC60C3 /* DungeonFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABD29AE2641959C00DC60C3 /* DungeonFinalUITests.swift */; };
+		6ABD29BD264195C200DC60C3 /* CustomTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6ABD29BC264195C200DC60C3 /* CustomTileSet.sks */; };
+		6AE1A599265D3EAE007603BB /* EndGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE1A598265D3EAE007603BB /* EndGameScene.swift */; };
+		9120799EB0E08FDA71C6C7E5 /* Pods_DungeonFinalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCE71EB1932FA1AD0262F73 /* Pods_DungeonFinalTests.framework */; };
+		999898C51FCB9CD6B459628C /* Pods_DungeonFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099BC7D20E327F14AB0AE3A8 /* Pods_DungeonFinal.framework */; };
+		A27B604468683FF35474CB53 /* Pods_DungeonFinal_DungeonFinalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DDAA25256E7B6E5D8983DF /* Pods_DungeonFinal_DungeonFinalUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		099BC7D20E327F14AB0AE3A8 /* Pods_DungeonFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DungeonFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A22972626594DA90066C277 /* nikita-solo-caveentrancefin-export.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nikita-solo-caveentrancefin-export.jpg"; path = "../../../Downloads/nikita-solo-caveentrancefin-export.jpg"; sourceTree = "<group>"; };
+		6A63F33126458E6D00EC85DB /* cobble 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cobble 2.png"; path = "../../cobble 2.png"; sourceTree = "<group>"; };
+		6A6CF25A2646D878004C5F00 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6A9BD8D7264C4C8800631466 /* 211-2113163_pixilart-scary-face-by-transparent-background-evil-face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "211-2113163_pixilart-scary-face-by-transparent-background-evil-face.png"; path = "../../../Downloads/211-2113163_pixilart-scary-face-by-transparent-background-evil-face.png"; sourceTree = "<group>"; };
 		6ABD29882641959B00DC60C3 /* DungeonFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DungeonFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABD298B2641959B00DC60C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6ABD298D2641959B00DC60C3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		6ABD298F2641959B00DC60C3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		6ABD29912641959B00DC60C3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		6ABD29932641959B00DC60C3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		6ABD29962641959B00DC60C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +63,16 @@
 		6ABD29AA2641959C00DC60C3 /* DungeonFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DungeonFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABD29AE2641959C00DC60C3 /* DungeonFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonFinalUITests.swift; sourceTree = "<group>"; };
 		6ABD29B02641959C00DC60C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABD29BC264195C200DC60C3 /* CustomTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CustomTileSet.sks; sourceTree = "<group>"; };
+		6AE1A598265D3EAE007603BB /* EndGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameScene.swift; sourceTree = "<group>"; };
+		720EC72BC4536E662B22D7DD /* Pods-DungeonFinalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DungeonFinalTests.release.xcconfig"; path = "Target Support Files/Pods-DungeonFinalTests/Pods-DungeonFinalTests.release.xcconfig"; sourceTree = "<group>"; };
+		8CF4E4A3262472739E3CF4F9 /* Pods-DungeonFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DungeonFinal.debug.xcconfig"; path = "Target Support Files/Pods-DungeonFinal/Pods-DungeonFinal.debug.xcconfig"; sourceTree = "<group>"; };
+		90BD548CE0BEB8D9C6DD9792 /* Pods-DungeonFinal-DungeonFinalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DungeonFinal-DungeonFinalUITests.release.xcconfig"; path = "Target Support Files/Pods-DungeonFinal-DungeonFinalUITests/Pods-DungeonFinal-DungeonFinalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5380466D2F80341DE0D958A /* Pods-DungeonFinal-DungeonFinalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DungeonFinal-DungeonFinalUITests.debug.xcconfig"; path = "Target Support Files/Pods-DungeonFinal-DungeonFinalUITests/Pods-DungeonFinal-DungeonFinalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0DDAA25256E7B6E5D8983DF /* Pods_DungeonFinal_DungeonFinalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DungeonFinal_DungeonFinalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D7DC5D527352F4895A6AE2 /* Pods-DungeonFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DungeonFinal.release.xcconfig"; path = "Target Support Files/Pods-DungeonFinal/Pods-DungeonFinal.release.xcconfig"; sourceTree = "<group>"; };
+		D50D3174F2A9FEB0F8FA0A46 /* Pods-DungeonFinalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DungeonFinalTests.debug.xcconfig"; path = "Target Support Files/Pods-DungeonFinalTests/Pods-DungeonFinalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBCE71EB1932FA1AD0262F73 /* Pods_DungeonFinalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DungeonFinalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				999898C51FCB9CD6B459628C /* Pods_DungeonFinal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9120799EB0E08FDA71C6C7E5 /* Pods_DungeonFinalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A27B604468683FF35474CB53 /* Pods_DungeonFinal_DungeonFinalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +110,8 @@
 				6ABD29A22641959C00DC60C3 /* DungeonFinalTests */,
 				6ABD29AD2641959C00DC60C3 /* DungeonFinalUITests */,
 				6ABD29892641959B00DC60C3 /* Products */,
+				AA05011E9E0F3D23A024DEE3 /* Pods */,
+				76958388B7818B1A8FE37CC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +128,15 @@
 		6ABD298A2641959B00DC60C3 /* DungeonFinal */ = {
 			isa = PBXGroup;
 			children = (
-				6ABD298B2641959B00DC60C3 /* AppDelegate.swift */,
+				6A22972626594DA90066C277 /* nikita-solo-caveentrancefin-export.jpg */,
+				6A9BD8D7264C4C8800631466 /* 211-2113163_pixilart-scary-face-by-transparent-background-evil-face.png */,
+				6A6CF25A2646D878004C5F00 /* GoogleService-Info.plist */,
+				6A63F33126458E6D00EC85DB /* cobble 2.png */,
 				6ABD298D2641959B00DC60C3 /* GameScene.sks */,
-				6ABD298F2641959B00DC60C3 /* Actions.sks */,
+				6ABD298B2641959B00DC60C3 /* AppDelegate.swift */,
 				6ABD29912641959B00DC60C3 /* GameScene.swift */,
+				6AE1A598265D3EAE007603BB /* EndGameScene.swift */,
+				6ABD29BC264195C200DC60C3 /* CustomTileSet.sks */,
 				6ABD29932641959B00DC60C3 /* GameViewController.swift */,
 				6ABD29952641959B00DC60C3 /* Main.storyboard */,
 				6ABD29982641959C00DC60C3 /* Assets.xcassets */,
@@ -131,6 +163,29 @@
 			path = DungeonFinalUITests;
 			sourceTree = "<group>";
 		};
+		76958388B7818B1A8FE37CC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				099BC7D20E327F14AB0AE3A8 /* Pods_DungeonFinal.framework */,
+				D0DDAA25256E7B6E5D8983DF /* Pods_DungeonFinal_DungeonFinalUITests.framework */,
+				EBCE71EB1932FA1AD0262F73 /* Pods_DungeonFinalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA05011E9E0F3D23A024DEE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CF4E4A3262472739E3CF4F9 /* Pods-DungeonFinal.debug.xcconfig */,
+				D2D7DC5D527352F4895A6AE2 /* Pods-DungeonFinal.release.xcconfig */,
+				C5380466D2F80341DE0D958A /* Pods-DungeonFinal-DungeonFinalUITests.debug.xcconfig */,
+				90BD548CE0BEB8D9C6DD9792 /* Pods-DungeonFinal-DungeonFinalUITests.release.xcconfig */,
+				D50D3174F2A9FEB0F8FA0A46 /* Pods-DungeonFinalTests.debug.xcconfig */,
+				720EC72BC4536E662B22D7DD /* Pods-DungeonFinalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6ABD29B32641959C00DC60C3 /* Build configuration list for PBXNativeTarget "DungeonFinal" */;
 			buildPhases = (
+				5F32297CBFDDD1E2A50AEA27 /* [CP] Check Pods Manifest.lock */,
 				6ABD29842641959B00DC60C3 /* Sources */,
 				6ABD29852641959B00DC60C3 /* Frameworks */,
 				6ABD29862641959B00DC60C3 /* Resources */,
+				B297E825793916E1C768B81D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6ABD29B62641959C00DC60C3 /* Build configuration list for PBXNativeTarget "DungeonFinalTests" */;
 			buildPhases = (
+				14313CE361FF89CDA830B706 /* [CP] Check Pods Manifest.lock */,
 				6ABD299B2641959C00DC60C3 /* Sources */,
 				6ABD299C2641959C00DC60C3 /* Frameworks */,
 				6ABD299D2641959C00DC60C3 /* Resources */,
@@ -173,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6ABD29B92641959C00DC60C3 /* Build configuration list for PBXNativeTarget "DungeonFinalUITests" */;
 			buildPhases = (
+				ABF52E6B8C723901979F62FF /* [CP] Check Pods Manifest.lock */,
 				6ABD29A62641959C00DC60C3 /* Sources */,
 				6ABD29A72641959C00DC60C3 /* Frameworks */,
 				6ABD29A82641959C00DC60C3 /* Resources */,
+				2B9622FA8E346631A0357535 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,9 +295,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ABD29972641959B00DC60C3 /* Main.storyboard in Resources */,
+				6A63F33226458E6D00EC85DB /* cobble 2.png in Resources */,
+				6ABD29BD264195C200DC60C3 /* CustomTileSet.sks in Resources */,
 				6ABD298E2641959B00DC60C3 /* GameScene.sks in Resources */,
+				6A9BD8D8264C4C8800631466 /* 211-2113163_pixilart-scary-face-by-transparent-background-evil-face.png in Resources */,
 				6ABD29992641959C00DC60C3 /* Assets.xcassets in Resources */,
-				6ABD29902641959B00DC60C3 /* Actions.sks in Resources */,
+				6A6CF25B2646D878004C5F00 /* GoogleService-Info.plist in Resources */,
+				6A22972726594DAA0066C277 /* nikita-solo-caveentrancefin-export.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +321,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14313CE361FF89CDA830B706 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DungeonFinalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B9622FA8E346631A0357535 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DungeonFinal-DungeonFinalUITests/Pods-DungeonFinal-DungeonFinalUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DungeonFinal-DungeonFinalUITests/Pods-DungeonFinal-DungeonFinalUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DungeonFinal-DungeonFinalUITests/Pods-DungeonFinal-DungeonFinalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F32297CBFDDD1E2A50AEA27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DungeonFinal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABF52E6B8C723901979F62FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DungeonFinal-DungeonFinalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B297E825793916E1C768B81D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DungeonFinal/Pods-DungeonFinal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DungeonFinal/Pods-DungeonFinal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DungeonFinal/Pods-DungeonFinal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6ABD29842641959B00DC60C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +432,7 @@
 				6ABD29922641959B00DC60C3 /* GameScene.swift in Sources */,
 				6ABD29942641959B00DC60C3 /* GameViewController.swift in Sources */,
 				6ABD298C2641959B00DC60C3 /* AppDelegate.swift in Sources */,
+				6AE1A599265D3EAE007603BB /* EndGameScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +597,7 @@
 		};
 		6ABD29B42641959C00DC60C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CF4E4A3262472739E3CF4F9 /* Pods-DungeonFinal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,6 +616,7 @@
 		};
 		6ABD29B52641959C00DC60C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D7DC5D527352F4895A6AE2 /* Pods-DungeonFinal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,6 +635,7 @@
 		};
 		6ABD29B72641959C00DC60C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D50D3174F2A9FEB0F8FA0A46 /* Pods-DungeonFinalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +657,7 @@
 		};
 		6ABD29B82641959C00DC60C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 720EC72BC4536E662B22D7DD /* Pods-DungeonFinalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +679,7 @@
 		};
 		6ABD29BA2641959C00DC60C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5380466D2F80341DE0D958A /* Pods-DungeonFinal-DungeonFinalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +699,7 @@
 		};
 		6ABD29BB2641959C00DC60C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90BD548CE0BEB8D9C6DD9792 /* Pods-DungeonFinal-DungeonFinalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

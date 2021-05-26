@@ -1,0 +1,6 @@
+framework module Pods_DungeonFinal {
+  umbrella header "Pods-DungeonFinal-umbrella.h"
+
+  export *
+  module * { export * }
+}
